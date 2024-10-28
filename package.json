@@ -24,5 +24,10 @@
     "axios": "0.28.0",
     "minimist": "^1.2.8",
     "youtube-videos-uploader": "^2.0.26"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/puppeteer/.local-chromium/**/*"
+    ]
   }
 }
